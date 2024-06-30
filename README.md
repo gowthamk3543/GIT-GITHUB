@@ -25,5 +25,7 @@ While working on Git, we actively use two repositories.
 **Git Installation on Windows**
 
 Download the latest version of Git and choose the 64/32 bit version. After the file is downloaded, install it in the system. Once installed, select Launch the Git Bash, then click on finish. The Git Bash is now launched.
-
+```
+https://git-scm.com/downloads
+```
 **GIT COMMANDS**
