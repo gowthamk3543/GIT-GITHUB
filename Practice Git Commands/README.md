@@ -98,11 +98,11 @@ git config user.email
 
 - Now, let's push the text document Demo on GitHub. Open your GitHub account, and create a new repository. The name of the repository will be "FirstRepo."
 (NOTE: YOU NEED TO HAVE GITHUB ACCOUNT)
-Then connect the local repo to remote repo
+Then connect the local repo to remote repo:
 ```
 git remote add origin <your github repo URL>
 ```
-Then push the file to remote repo
+Then push the file to remote repo:
 ```
 git push -u origin master
 ```
