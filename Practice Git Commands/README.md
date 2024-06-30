@@ -35,7 +35,7 @@ git status
 ```
 This shows that there isn't a file committed yet, and there are untracked files. The untracked files can be seen in red.
 
-For Git to track that file, add command is used. If you know the exact name of the file, you can specify it:
+- For Git to track that file, add command is used. If you know the exact name of the file, you can specify it:
 ```
 git add demo.txt
 ```
@@ -81,5 +81,32 @@ git add .
 git commit -m "commit modified file"
 ```
 
+- Now we need to config username and email so that we can push files to remote repository:
+```
+git config --global user.name <your github username>
+```
+```
+git config --global user.email <your github email id>
+```
+To check the username and email id:
+```
+git config user.name
+```
+```
+git config user.email
+```
+
 - Now, let's push the text document Demo on GitHub. Open your GitHub account, and create a new repository. The name of the repository will be "FirstRepo."
 (NOTE: YOU NEED TO HAVE GITHUB ACCOUNT)
+Then connect the local repo to remote repo
+```
+git remote add origin <your github repo URL>
+```
+Then push the file to remote repo
+```
+git push -u origin master
+```
+
+Now File will be add to Remote repo.
+
+# This is how we transfer files from LOCAL REPO to REMOTE REPO.
