@@ -109,4 +109,5 @@ git push -u origin master
 
 Now File will be add to Remote repo.
 
-# This is how we transfer files from LOCAL REPO to REMOTE REPO.
+# This is how we transfer files from LOCAL REPO to REMOTE REPO.\
+Please refer the docx for your reference.
